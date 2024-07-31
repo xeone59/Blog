@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: comments
-          image: docker.io/xeone59/comments:latest
+          image: xeone59/comments
 ---
 apiVersion: v1
 kind: Service

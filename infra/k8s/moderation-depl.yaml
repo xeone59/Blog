@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: moderation
-          image: docker.io/xeone59/moderation:latest
+          image: xeone59/moderation
 ---
 apiVersion: v1
 kind: Service
@@ -26,5 +26,5 @@ spec:
   ports:
     - name: moderation
       protocol: TCP
-      port: 4005
-      targetPort: 4005
+      port: 4003
+      targetPort: 4003
